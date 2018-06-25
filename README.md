@@ -24,58 +24,38 @@ Many of the problems machines are expected to solve will require extensive knowl
 
 The most general ontologies are called upper ontologies, which act as mediators between domain ontologies that cover specific knowledge about a particular knowledge domain (field of interest or area of concern). Such formal knowledge representations are suitable for content-based indexing and retrieval, scene interpretation, clinical decision support, knowledge discovery via automated reasoning. 
 
-History: 
+# History: 
 
-Started in the Summer of 1956 
+* Started in the Summer of 1956 
+* Research kickoff at Dartmouth – Can we make computers execute reasoning tasks? 
+* Marvin Minsky (Foundational work in Neural Networks – Perceptrons) (MIT) 
+* John Mcarthy (Inventor of LISP) (MIT) 
+* Claude Shannon (Father of Information Theory) [self navigating mouse in maze, chess AI] 
+* Nathaniel Rochester 
 
-Research kickoff at Dartmouth – Can we make computers execute reasoning tasks? 
+# Allen Newell (CMU),  
+* [Information Processing Language (1956) and two of the earliest AI programs, the Logic Theory Machine (1956) and the General Problem Solver (1957) (with Herbert A. Simon).]  
+* Herbert Simon (CMU), [Co-author with Allen Newell, economist, cognitive science and decision science proponent] 
+*Arthur Samuel (IBM) [Coined the term Machine Learning in 1959, made the first Checkers AI with IBM] 
 
-Marvin Minsky (Foundational work in Neural Networks – Perceptrons) (MIT) 
-
-John Mcarthy (Inventor of LISP) (MIT) 
-
-Claude Shannon (Father of Information Theory) [self navigating mouse in maze, chess AI] 
-
-Nathaniel Rochester 
-
-Allen Newell (CMU),  
-[Information Processing Language (1956) and two of the earliest AI programs, the Logic Theory Machine (1956) and the General Problem Solver (1957) (with Herbert A. Simon).]  
-
-Herbert Simon (CMU), [Co-author with Allen Newell, economist, cognitive science and decision science proponent] 
-
-Arthur Samuel (IBM) [Coined the term Machine Learning in 1959, made the first Checkers AI with IBM] 
-
-Teach computers to represent knowledge of the real world 
-
-What are objects? People? Language? 
-
-How to understand language through context? 
-
-First self driving robot invented in SRI Menlo Park in the 1960's 
-
-First IBM mainframe at George Town University to translate Russian to English and back. 
+* Teach computers to represent knowledge of the real world 
+* What are objects? People? Language? 
+* How to understand language through context? 
+* First self driving robot invented in SRI Menlo Park in the 1960's 
+* First IBM mainframe at George Town University to translate Russian to English and back. 
 
 In the late 1990s and early 21st century, AI began to be used for logistics, data mining, medical diagnosis and other areas. The success was due to increasing computational power (see Moore's law), greater emphasis on solving specific problems, new ties between AI and other fields and a commitment by researchers to mathematical methods and scientific standards. Deep Blue became the first computer chess-playing system to beat a reigning world chess champion, Garry Kasparov on 11 May 1997 
 
-The AI Sector faced Boom/Bust cycles called AI Winters  
-
-1966: the failure of machine translation, 
-
-1970: the abandonment of connectionism, 
-
-1971–75: DARPA's frustration with the Speech Understanding Research program at Carnegie Mellon University, 
-
-1973: the large decrease in AI research in the United Kingdom in response to the Lighthill report, 
-
-1973–74: DARPA's cutbacks to academic AI research in general, 
-
-1987: the collapse of the Lisp machine market, with the introduction of more affordable microcomputers, running lisp programs even faster, removing the need for high profit margin systems. 
-
-1988: the cancellation of new spending on AI by the Strategic Computing Initiative, 
-
-1993: expert systems slowly reaching the bottom, and 
-
-1990s: the quiet disappearance of the fifth-generation computer project's original goals. 
+*The AI Sector faced Boom/Bust cycles called AI Winters  
+* 1966: the failure of machine translation, 
+* 1970: the abandonment of connectionism, 
+* 1971–75: DARPA's frustration with the Speech Understanding Research program at Carnegie Mellon University, 
+* 1973: the large decrease in AI research in the United Kingdom in response to the Lighthill report, 
+* 1973–74: DARPA's cutbacks to academic AI research in general, 
+* 1987: the collapse of the Lisp machine market, with the introduction of more affordable microcomputers, running lisp programs even faster, removing the need for high profit margin systems. 
+* 1988: the cancellation of new spending on AI by the Strategic Computing Initiative, 
+* 1993: expert systems slowly reaching the bottom, and 
+* 1990s: the quiet disappearance of the fifth-generation computer project's original goals. 
 
 The quantum leap in AI needed to shift the industry out of AI Winter. Shift from hard coded instructions to machine learning.   
 
@@ -89,36 +69,14 @@ Jergen Smidenhuper – Recurrent short term memories
 
 Google – Fed youtube data, it was able to classify videos and data. Data-up approach was born 
 
-Page Break
- 
-
-Intelligent Agents (link) 
-
- 
+# Intelligent Agents (link) 
 
 An Intelligent agent can perceive the state of its environments through sensors and affects it states through its actuators.  
-
 Functions that map sensors to actuators are called the control policy of an intelligent agent.  
-
 AI is concerned with how the agent can make decisions that it can carry out with its actuators, based on its sensor data.  
-
 This cycle is called the Perception-Action cycle. 
 
- 
-
-Applications for AI: 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Terminology: 
+# Terminology: 
 
 Fully vs Partially Observable 
 
@@ -136,7 +94,7 @@ An environment is Partially observable if the sensors can see a fraction of the 
 
 We use hidden markov models to structure internal memory. 
 
-Deterministic vs stochastic 
+# Deterministic vs stochastic 
 
 Deterministic environments – your agents actions uniquely determine the outcome 
 
@@ -144,7 +102,7 @@ The effect of moving a piece is pre-determined
 
 Games with dice, like backgammon is random or stochastic as there is a certain amount of randomness involved 
 
-Discrete vs Continuous 
+# Discrete vs Continuous 
 
 Discrete – there are a finite amount of actions or options (Chess moves) 
 
@@ -155,28 +113,23 @@ Benign vs Adversarial Environments
 Benign has no objective of its own 
 
 Adversarial has an objective to 'win'. As there is an opponent to the Intelligent Agent, it must be aware of counters to its own moves.  
-
- 
-
- 
-
-AI as an uncertainty management.  
+# AI as an uncertainty management.  
 
 What do you do when you don't know what to do? 
 
-Reasons for uncertainty 
+* Reasons for uncertainty 
 
-Sensor limits 
+* Sensor limits 
 
-Ignorance 
+* Ignorance 
 
-Laziness 
+* Laziness 
 
-Stochastic environments 
+# Stochastic environments 
 
-Adversaries (something blockin an obervation) 
+Adversaries (something blocking an obervation) 
 
-Examples of AI 
+# Examples of AI 
 
 Google: Machine translation systems.  
 
@@ -208,10 +161,6 @@ Path cost function -> s(a1) -> s(a2)-> n
 
 Step cost function(s,a,s') -> n 
 
- 
-
-Inserting image... 
-
 Initial state: Arad 
 
 Goal Test: being in Bucharest. All other states will return 0, only Bucharest will return 1 
@@ -232,7 +181,7 @@ Path Costt = Sum of Step costs to the destination
 
  
 
-Algorithms: 
+# Algorithms: 
 
 Breadth First Search – Choose the shortest possible path 
 
@@ -242,7 +191,7 @@ Function Tree.search(problem):
 
 Frontier = {[initial]} 
 
-Loop:  
+# Loop:  
 
 If frontier is empty: return FAIL 
 
@@ -262,7 +211,7 @@ Tree.search (problme p) returns path
 
 Frontier = {path(p.intial)} 
 
-Loop: 
+# Loop: 
 
 If frontier is empty: return FAIL 
 
@@ -286,13 +235,13 @@ Inserting image...
 
 How do we avoid lengthening our process? We keep track of where we've been and where we haven't. What is the discovered and undiscovered. This is done by keep track of past states and avoiding going back to a previous state.  
 
-Graph Search: 
+# Graph Search: 
 
 Function graph.search(problem): 
 
 Frontier = {[Intial]}; expand = {} 
 
-Loop:  
+# Loop:  
 
 If frontier is empty: return FAIL 
 
@@ -310,11 +259,7 @@ To frontier
 
 Unless Results(s,a) in frontier explored 
 
- 
-
 Graph search doesn't stop once it arrives at the Goal node. It might not be the best or shortest path. So it must check other paths to prove that It's the shortest path.  
-
- 
 
 General graph and tree search will only look at the minimum states rather than the shortest distance using the path cost.  
 
@@ -322,7 +267,6 @@ Uniform Cost search will find the path with the cheapest total cost
 
 This will pick the cheapest path first.  
 
-Inserting image... 
 
 Path 1: arad -> Zerind -> Oradea = 146 
 
@@ -334,17 +278,12 @@ No compares to previous paths, 146, 140 and 229, it will revert to 140
 
 Path 3: Arad-> Sibiu 
 
- 
-
-Inserting image... 
-
 Breadth first – least number of steps (2n storage) 
 
 Cheapest First – Lowest total cost (2n storage) 
 
 Depth first – Longest path first (n nodes) substantial storage savings 
 
- 
 
 Cheapest first isn't directed. It works like concentric circles. To find the goal faster, we need to add more knowledge, such as 
 
@@ -476,484 +415,17 @@ Not continuous: there are finite moves, left or right, up or down.
 
 Not adversarial: no competition 
 
-Search Tree Navigation: 
-
-  
-
-Left to right 
-
-Breadth first: 6 
-
-1 
-
- 
-
- 
-
-2 
-
-3 
-
-4 
-
-5 
-
-6 
-
- 
-
-Depth first: 4 
- 
-
-1 
-
- 
-
- 
-
-2 
-
- 
-
- 
-
-3 
-
-4 
-
- 
-
- 
-
-Right to left 
-
-Breadth first: 9 
-
-1 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-4 
-
-3 
-
-2 
-
- 
-
- 
-
- 
-
- 
-
-9 
-
-8 
-
-7 
-
-6 
-
-5 
-
-Depth first: 9 
- 
-
-1 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-8 
-
-5 
-
-2 
-
- 
-
- 
-
- 
-
- 
-
-9 
-
-7 
-
-6 
-
-4 
-
-3 
-
- 
-
-Search tree navigation 2 
-
- 
-
-Left – to - right 
-
-Breadth First: 
-
-1 
-
- 
-
- 
-
- 
-
- 
-
-2 
-
-3 
-
- 
-
- 
-
- 
-
-4 
-
-5 
-
-6 
-
- 
-
- 
-
-7 
-
-8 
-
-9 
-
-10 
-
- 
-
- 
-
-Depth First: Note we never expand a node twice 
-
-1 
-
- 
-
- 
-
- 
-
-2 
-
- 
-
- 
-
-14 
-
-3 
-
- 
-
-11 
-
-15 
-
-4 
-
-8 
-
-12 
-
-16 
-
-5 
-
-9 
-
-13 
-
- 
-
-6 
-
-10 
-
- 
-
- 
-
-7 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Right-to-left 
-
-Breadth First: 
-
-1 
-
- 
-
- 
-
- 
-
- 
-
-3 
-
-2 
-
- 
-
- 
-
- 
-
-6 
-
-5 
-
-4 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-7 
-
- 
-
- 
-
-Depth First: Note we never expand a node twice 
-
-1 
-
- 
-
- 
-
- 
-
- 
-
-2 
-
- 
-
- 
-
- 
-
- 
-
-3 
-
- 
-
- 
-
- 
-
- 
-
-4 
-
- 
-
-A* Search: 
-
-In computer science, artificial intelligence, and mathematical optimization, a heuristic (from Greek εὑρίσκω "I find, discover") is a technique designed for solving a problem more quickly when classic methods are too slow, or for finding an approximate solution when classic methods fail to find any exact solution. 
-
-The heuristic function is a way to inform the search about the direction to a goal. It provides an informed way to guess which neighbor of a node will lead to a goal. There is nothing magical about a heuristic function. It must use only information that can be readily obtained about a node. 
-
-Specifically, A* selects the path that minimizes 
-
-f(n)=g(n)+h(n) 
-
-where n is the last node on the path, g(n) is the cost of the path from the start node to n, and h(n) is a heuristic that estimates the cost of the cheapest path from n to the goal. The heuristic is problem-specific. For the algorithm to find the actual shortest path, the heuristic function must be admissible, meaning that it never overestimates the actual cost to get to the nearest goal node. 
-
- 
-
-The distance to the goal is strictly underestimated, see the bottom and extreme right of the table.  
-
-A* search creates a G() function, that explores the smallest distance for its next step 
-
-h() = Heuristic function: Estimates the cheapest path from the goal 
-
- 
-
-1 
-
-2 
-
-3 
-
-4 
-
-5 
-
-6 
-
-a 
-
-4 
-
-4 
-
-4 
-
-3 
-
-2 
-
-1 
-
-b 
-
-3 
-
-3 
-
-3 
-
-3 
-
-2 
-
-1 
-
-c 
-
-2 
-
-2 
-
-2 
-
-2 
-
-2 
-
-1 
-
-d 
-
-1 
-
-1 
-
-1 
-
-1 
-
-1 
-
-0 
-
- 
-
-G() = G Function : Cost of the path from the start node to n 
-
-0 
-
-1 
-
- 
-
- 
-
-1 
-
-2 
-
- 
-
- 
-
-2 
-
-3 
-
- 
-
- 
-
-3 
-
- 
-
- 
-
- 
-
- 
-
 f(n) = g(n) + h(n) 
 
 We look for the minimum for f(n), so adding left and right we find the shortest path chosen by f(n) is down column 1.   
 
-Page Break
- 
-
 Probability and Bayesian Networks 
-
- 
 
 Many causes for a problem. Looking at the influence diagram or Bayes net, can we diagnose the problem? 
 
 Factoring in diagnostics, this is what our bayesian network looks like: 
 
- 
-
 A car is a complex system with variables you can't always easily measure. It has sensors and hidden problems. 
-
- 
 
 The Bayes network assists you in reasoning between observable variables to hidden causes.  
 
@@ -965,21 +437,12 @@ In this course, we will assume discrete binary options/variables
 
 We will learn to specify a Bayes network, observe the options, compute probabilities to determine an outcome. 
 
- 
-
- 
-
- 
 
 Probability 
 
 Probabilities are used to express uncertainties, being a cornerstone of AI. 
 
 Proabilities sum to 1, so all chances for all options add up to 1.  
-
- 
-
- 
 
 What is the probability that we will obtain the same face each four times, either all heads or all tails 
 
@@ -1003,7 +466,7 @@ What is the probability we have at least 3 heads out of 4 coin tosses?
 
 Map out the possibilities, we find 5 possibilites, each with 1/16 chance. We are after all the probabilities that we get >= 3 heads, so we're after an and option. 5 * (1/16) = 5/16 or 0.312 
 
-Summary: 
+# Summary: 
 
  
 
